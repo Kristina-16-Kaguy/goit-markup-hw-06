@@ -377,3 +377,51 @@ button {
 }
 
 /* HERO */
+
+/* FEATURES */
+.features-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 72px;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+
+.features-item {
+  width: 100%;
+}
+
+.features {
+  padding-top: 91px;
+  padding-bottom: 96px;
+  /* padding-left: 16px; */
+  /* padding-right: 16px; */
+}
+.features-icon-list {
+  display: none;
+}
+
+.features-subtitle {
+  margin-bottom: 8px;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: #2e2f42;
+}
+
+.features-item-text {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
+}
+
+@media screen and (min-width: 768px) {
+  .mobile-menu {
+    display: none;
+  }
+}

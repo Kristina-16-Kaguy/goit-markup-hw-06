@@ -118,11 +118,11 @@ header .container {
 .features-subtitle {
   font-size: 20px;
   font-weight: 500;
-  margin-bottom: 8px;
-  line-height: 1.2;
-  letter-spacing: 0.02em;
-  color: #2e2f42;
-  margin-bottom: 8px;
+  /* margin-bottom: 8px; */
+  /* line-height: 1.2; */
+  /* letter-spacing: 0.02em; */
+  /* color: #2e2f42; */
+  /* margin-bottom: 8px; */
 }
 
 .features-item {
@@ -131,10 +131,10 @@ header .container {
 }
 
 .features-item-text {
-  font-size: 16px;
+  /* font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: #434455;
+  color: #434455; */
 }
 
 .features-icon-list {
