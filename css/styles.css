@@ -394,9 +394,8 @@ button {
 .features {
   padding-top: 91px;
   padding-bottom: 96px;
-  /* padding-left: 16px; */
-  /* padding-right: 16px; */
 }
+
 .features-icon-list {
   display: none;
 }
@@ -421,7 +420,21 @@ button {
 }
 
 @media screen and (min-width: 768px) {
-  .mobile-menu {
+  .features-icon-list {
     display: none;
+  }
+
+  .features {
+    padding-top: 96px;
+    padding-bottom: 96px;
+  }
+
+  .features-item {
+    flex-direction: row;
+    width: calc((100% - 24px) / 2);
+  }
+
+  .features-list {
+    gap: 72px 24px;
   }
 }
