@@ -22,7 +22,7 @@
   font-style: normal;
   margin-right: 76px;
 } */
-
+/* 
 header .container {
   display: flex;
   justify-content: space-between;
@@ -37,7 +37,7 @@ header .container {
 .header-adress {
   font-style: normal;
   margin-left: auto;
-}
+} */
 
 /* HERO */
 
@@ -63,7 +63,6 @@ header .container {
   letter-spacing: 0.02em;
   text-align: center;
   color: #fff;
-  margin-bottom: 48px;
   max-width: 496px;
   margin: 0 auto;
   margin-bottom: 48px;

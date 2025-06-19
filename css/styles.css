@@ -377,6 +377,33 @@ button {
 }
 
 /* HERO */
+hero {
+  background-color: #2e2f42;
+  background-image: linear-gradient(
+      rgba(46, 47, 66, 0.7),
+      rgba(46, 47, 66, 0.7)
+    ),
+    url(../images/hero-bgn.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  margin: 0 auto;
+  background-size: cover;
+}
+
+.hero-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: #fff;
+  max-width: 216px;
+  margin: 0 auto;
+  margin-bottom: 72px;
+  margin-top: 72px;
+  margin-left: 52px;
+  margin-right: 52px;
+}
 
 /* FEATURES */
 
