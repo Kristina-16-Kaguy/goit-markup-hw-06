@@ -445,13 +445,6 @@ button {
 }
 
 @media screen and (min-width: 1158px) {
-  .container {
-    width: 1128px;
-    height: 225px;
-    padding-left: 16px;
-    padding-right: 16px;
-  }
-
   .features {
     padding-top: 120px;
     padding-bottom: 120px;
@@ -496,7 +489,7 @@ button {
   padding-bottom: 96px;
 }
 
-.container {
+.team .container {
   padding-left: 28px;
   padding-right: 28px;
 }
@@ -587,4 +580,41 @@ button {
 .team-socialmedia-link:hover,
 .team-socialmedia-link:focus {
   background-color: #404bbf;
+}
+
+@media screen and (min-width: 768px) {
+  .team .container {
+    padding-left: 108px;
+    padding-right: 108px;
+  }
+
+  .team-list {
+    gap: 64px 24px;
+
+    max-width: 100%;
+  }
+
+  .team-list-item {
+    width: calc((100% - 24px) / 2);
+  }
+}
+
+@media screen and (min-width: 1158px) {
+  .team .container {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  .team {
+    padding-bottom: 120px;
+    padding-top: 120px;
+  }
+
+  .team-list {
+    display: flex;
+    gap: 24px;
+  }
+
+  .team-list-item {
+    width: calc((100% - 72px) / 4);
+  }
 }
